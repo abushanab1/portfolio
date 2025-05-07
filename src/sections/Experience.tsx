@@ -32,12 +32,21 @@ const experiences = [
       "Reviewed code submissions and gave structured feedback on style and efficiency.",
     ],
   },
+  {
+    role: "Electric Consultant",
+    company: "Sunrun",
+    location: "Tampa, FL",
+    date: "Aug 2024 – Dec 2024",
+    bullets: [
+      "Knocked 100+ doors weekly to educate homeowners on solar solutions, honing persistence and communication skills.",
+      "Improved lead conversion rates by clearly tailoring pitches to diverse customer needs."
+    ],
+  },
 ];
 
 const Experience = () => {
   return (
     <section id="projects" className="py-16 px-6 bg-transparent text-white">
-
       <h2 className="text-3xl font-bold text-primary mb-8 text-center">Experience</h2>
       <div className="space-y-10 max-w-4xl mx-auto">
         {experiences.map((exp, index) => (
