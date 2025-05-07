@@ -38,7 +38,7 @@ const experiences = [
     location: "Tampa, FL",
     date: "Aug 2024 – Dec 2024",
     bullets: [
-      "Knocked 100+ doors weekly to educate homeowners on solar solutions, honing persistence and communication skills.",
+      "Knocked 100+ doors weekly to pitch solar solutions, sharpening resilience and communication.",
       "Improved lead conversion rates by clearly tailoring pitches to diverse customer needs."
     ],
   },
