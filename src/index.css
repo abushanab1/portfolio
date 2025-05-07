@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-dark text-white font-sans;
+}
+.active a {
+  background-color: #23d507;
+  color: rgb(238, 39, 39) !important;
+}
+
+.active a div {
+  color: black !important;
+}
+@keyframes flicker {
+  0%, 100% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeTwinkle {
+  0% { filter: brightness(1); }
+  100% { filter: brightness(1.2); }
+}
+
+.animate-fadeTwinkle {
+  animation: fadeTwinkle 10s ease-in-out infinite alternate;
+}
+
+@keyframes ripple {
+  0% {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 0.6;
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(3);
+    opacity: 0;
+  }
+}
+
+.animate-ripple {
+  animation: ripple 0.5s ease-out forwards;
+}
+
