@@ -28,7 +28,7 @@ const FloatingAvatar = () => {
         {tooltip}
       </div>
       <motion.img
-        src="/public/profile.png" // 👈 Put your cartoon image in /public/avatar.png
+        src="/profile.png" // ✅ Correct public path — don't use /public/
         alt="Floating Avatar"
         className="w-16 h-16 rounded-full border-2 border-primary shadow-lg"
         animate={{ y: [0, -6, 0] }}
