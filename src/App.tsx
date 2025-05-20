@@ -23,8 +23,8 @@ function App() {
   const sectionRefs: React.RefObject<HTMLElement>[] = [
     aboutRef,
     skillsRef,
-    projectsRef,
     experienceRef,
+    projectsRef,
     leadershipRef,
     contactRef,
   ];
