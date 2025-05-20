@@ -15,8 +15,9 @@ function App() {
   const leadershipRef = useRef<HTMLElement>(null!);
   const aboutRef = useRef<HTMLElement>(null!);
   const skillsRef = useRef<HTMLElement>(null!);
-  const projectsRef = useRef<HTMLElement>(null!);
   const experienceRef = useRef<HTMLElement>(null!);
+  const projectsRef = useRef<HTMLElement>(null!);
+  // const experienceRef = useRef<HTMLElement>(null!);
   const contactRef = useRef<HTMLElement>(null!);
 
   const sectionRefs: React.RefObject<HTMLElement>[] = [
@@ -40,8 +41,9 @@ function App() {
         <main className="relative z-10 pb-24">
           <section id="about" ref={aboutRef}><Hero /></section>
           <section id="skills" ref={skillsRef}><Skills /></section>
-          <section id="projects" ref={projectsRef}><Projects /></section>
           <section id="experience" ref={experienceRef}><Experience /></section>
+          <section id="projects" ref={projectsRef}><Projects /></section>
+          {/* <section id="experience" ref={experienceRef}><Experience /></section> */}
           <section id="leadership" ref={leadershipRef}><Leadership /></section>
           <section id="contact" ref={contactRef} className="scroll-mb-24 pb-20">
             <Contact />
