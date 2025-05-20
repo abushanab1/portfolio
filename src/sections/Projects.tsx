@@ -2,6 +2,36 @@ import { motion } from 'framer-motion';
 
 const projects = [
   {
+    name: "AI Resume Matcher",
+    tech: "JavaScript, Node.js, React, OpenAI API, OCR",
+    description: "Full-stack tool that matches resumes to job descriptions using GPT-3.5 and OCR. Boosted matching accuracy by 50%.",
+    link: "https://github.com/abushanab1/resume-matcher", // Replace if different
+  },
+  {
+    name: "SecureCLI Chat",
+    tech: "C++, OpenSSL, AES-256, Unix/Linux",
+    description: "Encrypted Unix-based CLI messaging tool with Base64 encoding, AES-256 encryption, and secure key validation.",
+    link: "https://github.com/abushanab1/securecli-chat", // Replace if different
+  },
+  {
+    name: "Portfolio Website",
+    tech: "TypeScript, React, TailwindCSS, AWS S3, CloudFront",
+    description: "Responsive, animated portfolio deployed via AWS. CI/CD with GitHub Actions and custom domain setup.",
+    link: "https://muhannadabushanab.com", // Live site
+  },
+  {
+    name: "Image Classifier",
+    tech: "React, REST APIs, TTS API",
+    description: "Uploads images and returns results via a speech API for accessibility.",
+    link: "https://github.com/abushanab1/ImageClassifier",
+  },
+  {
+    name: "21 Day Habit Challenge",
+    tech: "Java, Swing, OOP",
+    description: "A desktop app to help users build lasting habits through streak logic and journaling.",
+    link: "https://github.com/abushanab1/21-day-challenge",
+  },
+  {
     name: "Prompted",
     tech: "JavaScript, React, CSS, Chrome Extension APIs",
     description: "A Chrome extension to optimize AI prompts, boost accuracy, and improve UX.",
@@ -14,30 +44,19 @@ const projects = [
     link: "https://github.com/abushanab1/friendly-fitness",
   },
   {
-    name: "21 Day Habit Challenge",
-    tech: "Java, Swing, OOP",
-    description: "A desktop app to help users build lasting habits through streak logic and journaling.",
-    link: "https://github.com/abushanab1/21-day-challenge",
-  },
-  {
-    name: "Image Classifier",
-    tech: "React, REST APIs, TTS API",
-    description: "Uploads images and returns results via a speech API for accessibility.",
-    link: "https://github.com/abushanab1/ImageClassifier",
-  },
-  {
     name: "Stock Handler",
     tech: "Object-Oriented C#, .NET",
-    description: "A C#/.NET app for analyzing stock performance with interactive charts. Optimized data handling to reduce chart render time by 30%.",
-    link: "https://github.com/abushanab1/stock-handler", // 🔁 Replace with actual link if different
+    description: "C#/.NET app for analyzing stock performance with interactive charts. Optimized render time by 30%.",
+    link: "https://github.com/abushanab1/stock-handler",
   },
   {
     name: "Bulls E-Market",
     tech: "SQL, PostgreSQL, Express.js, Bootstrap, React, GitHub Actions",
-    description: "A full-stack platform with advanced search and responsive UI. CI/CD via GitHub Actions improved deployment speed and user experience.",
-    link: "https://github.com/abushanab1/bulls-e-market", // 🔁 Replace with actual link if different
+    description: "Full-stack platform with advanced search and responsive UI. CI/CD improved deployment speed and UX.",
+    link: "https://github.com/abushanab1/bulls-e-market",
   },
 ];
+
 
 const Projects = () => {
   return (
