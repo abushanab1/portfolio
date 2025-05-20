@@ -1,5 +1,5 @@
 import { useScrollspy } from "@makotot/ghostui";
-import { Home, Layers, Folder, Briefcase, Users, Mail } from "lucide-react";
+import { Home, Layers, Briefcase, Folder, Users, Mail } from "lucide-react";
 
 interface Props {
   sectionRefs: React.RefObject<HTMLElement>[];
@@ -12,7 +12,7 @@ const Navbar = ({ sectionRefs }: Props) => {
     offset: -100, // offset for better accuracy (e.g. navbar height)
   });
 
-  const icons = [Home, Layers, Folder, Briefcase, Users, Mail];
+  const icons = [Home, Layers, Briefcase, Folder, Users, Mail];
 
   const handleClick = (index: number) => {
     const ref = sectionRefs[index];
