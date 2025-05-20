@@ -8,8 +8,8 @@ const FloatingAvatar = () => {
     const handleScroll = () => {
       const y = window.scrollY;
       if (y < 400) setTooltip("💬 Let's build something great.");
-      else if (y < 1000) setTooltip("🛠️ Check out my projects!");
       else if (y < 1600) setTooltip("📈 Don't miss my experience.");
+      else if (y < 1000) setTooltip("🛠️ Check out my projects!");
       else setTooltip("📬 Let's connect!");
     };
 
