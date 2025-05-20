@@ -1,11 +1,40 @@
 import { motion } from 'framer-motion';
 
 const skills = {
-  Languages: ["JavaScript", "Python", "SQL", "C#", "C/C++", "HTML/CSS"],
-  Frameworks: ["React", "React Native", "Node.js", "Django", ".NET", "Express.js", "Bootstrap"],
-  Technologies: ["REST APIs", "Chrome Extension APIs"],
-  Tools: ["Git", "GitHub Actions", "AWS", "Agile", "Unit Testing", "Cisco DNA", "Power BI", "Excel"],
+  Languages: ["JavaScript", "Python", "Java", "C#", "C/C++", "SQL", "HTML/CSS"],
+  Frameworks: ["React", "React Native", "Node.js", "Express", "TailwindCSS", "Django", ".NET", "Bootstrap"],
+  Technologies: [
+    "OpenAI API", 
+    "OCR (Tesseract.js)", 
+    "pdfjs-dist", 
+    "REST APIs", 
+    "Chrome Extension APIs", 
+    "Text-to-Speech APIs", 
+    "ImageMagick", 
+    "Ghostscript"
+  ],
+  Tools: [
+    "Git", 
+    "GitHub Actions", 
+    "Postman", 
+    "AWS", 
+    "Agile", 
+    "CI/CD", 
+    "Multer", 
+    "Power BI", 
+    "Excel", 
+    "JIRA"
+  ],
+  Concepts: [
+    "Machine Learning", 
+    "Natural Language Processing", 
+    "Information Retrieval", 
+    "Distributed Systems", 
+    "Security Software Development", 
+    "Unix/Linux Environments"
+  ],
 };
+
 
 const Skills = () => {
   return (
