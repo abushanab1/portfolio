@@ -25,14 +25,6 @@ const skills = {
     "Excel", 
     "JIRA"
   ],
-  Concepts: [
-    "Machine Learning", 
-    "Natural Language Processing", 
-    "Information Retrieval", 
-    "Distributed Systems", 
-    "Security Software Development", 
-    "Unix/Linux Environments"
-  ],
 };
 
 
