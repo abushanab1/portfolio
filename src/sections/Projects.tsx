@@ -53,7 +53,7 @@ const projects = [
     name: "Bulls E-Market",
     tech: "SQL, PostgreSQL, Express.js, Bootstrap, React, GitHub Actions",
     description: "Full-stack platform with advanced search and responsive UI. CI/CD improved deployment speed and UX.",
-    link: "https://github.com/abushanab1/bulls-e-market",
+    link: "https://github.com/abushanab1/Bulls-Market",
   },
 ];
 
