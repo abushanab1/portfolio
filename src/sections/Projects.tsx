@@ -8,6 +8,13 @@ const projects = [
     link: "https://github.com/abushanab1/resume-matcher", // Replace if different
   },
   {
+    name: "Distributed Job Crawler",
+    tech: "Python, ThreadPoolExecutor, BeautifulSoup, TF-IDF, JSON/CSV",
+    description:
+      "Multithreaded Python web crawler that collected, filtered, and ranked 100+ job listings using TF-IDF keyword matching. Improved match quality by 60% and tripled crawl speed with retry logic, structured logging, and scalable export features.",
+    link: "https://github.com/abushanab1/job-crawler", // Replace with actual repo link if available
+  },
+  {
     name: "SecureCLI Chat",
     tech: "C++, OpenSSL, AES-256, Unix/Linux",
     description: "Encrypted Unix-based CLI messaging tool with Base64 encoding, AES-256 encryption, and secure key validation.",
